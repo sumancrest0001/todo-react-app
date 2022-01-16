@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with out crash 1`] = `
+<div
+  className="app"
+>
+  <div
+    className="todolist"
+  >
+    <button
+      className="todolist__button"
+      onClick={[Function]}
+      type="button"
+    >
+      Create new todo
+    </button>
+    <div
+      className="todolist__filter-section"
+    >
+      <label>
+        All
+        <input
+          checked={true}
+          name="filter"
+          onChange={[Function]}
+          type="radio"
+          value="all"
+        />
+      </label>
+      <label>
+        Completed
+        <input
+          checked={false}
+          name="filter"
+          onChange={[Function]}
+          type="radio"
+          value="completed"
+        />
+      </label>
+      <label>
+        Uncompleted
+        <input
+          checked={false}
+          name="filter"
+          onChange={[Function]}
+          type="radio"
+          value="incomplete"
+        />
+      </label>
+    </div>
+    <div
+      className="todolist__todos"
+    />
+  </div>
+</div>
+`;

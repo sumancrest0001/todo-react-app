@@ -35,10 +35,10 @@ const FormScreen = ({changeScreen}) => {
   const createTodo = (todo) => {
     axios.post('https://suman-todo.herokuapp.com/api/v1/todos', todo)
       .then(response => {
-        log.info(response);
+        console.log(response);
       })
       .then(res => {
-        log.error(res);
+        console.log(res);
       });
   };
 
